@@ -1,0 +1,11 @@
+{
+  "data": {
+    "user": {
+      "id": 0,
+      "name": "name",
+      "email": "email",
+      "handphone": "handphone",
+      "role": "role"
+    }
+  }
+}

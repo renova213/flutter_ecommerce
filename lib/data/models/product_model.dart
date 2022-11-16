@@ -12,8 +12,6 @@ class ProductModel extends Product {
                 .toList()
             : [],
       );
-
-  Map<String, dynamic> toJson() => {'data': product};
 }
 
 class ProductDetailModel extends ProductDetail {
@@ -37,25 +35,13 @@ class ProductDetailModel extends ProductDetail {
         harga: json['harga'] ?? 0,
         deskripsi: json['deskripsi'] ?? "null",
         stock: json['stock'] ?? 0,
-        createDate: json['updated_at'] ?? "null",
+        createDate: json['created_at'] ?? "null",
         productCategory: json['category'] != null
             ? ProductCategoryModel.fromJson(
                 json['category'],
               )
             : const ProductCategoryModel(id: 0, name: 'null'),
       );
-
-  Map<String, dynamic> toJson() => {
-        'id': id,
-        'name': name,
-        'image': image,
-        'category_id': categoryId,
-        'harga': harga,
-        'deskripsi': deskripsi,
-        'storck': stock,
-        'updated_at': createDate,
-        'category': productCategory
-      };
 }
 
 class ProductCategoryModel extends ProductCategory {
@@ -63,6 +49,4 @@ class ProductCategoryModel extends ProductCategory {
 
   factory ProductCategoryModel.fromJson(Map<String, dynamic> json) =>
       ProductCategoryModel(id: json['id'] ?? 0, name: json['name'] ?? "null");
-
-  Map<String, dynamic> toJson() => {'id': id, 'name': name};
 }

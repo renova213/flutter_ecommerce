@@ -1,0 +1,20 @@
+{
+  "code": "00",
+  "info": "Data Berhasil Diambil",
+  "data": [
+    {
+      "id": 0,
+      "name": "name",
+      "category_id": 0,
+      "image": "image",
+      "harga": 0,
+      "deskripsi": "deskripsi",
+      "stock": 0,
+      "created_at": "created_at",
+      "category": {
+        "id": 0,
+        "name": "name"
+      }
+    }
+  ]
+}
