@@ -1,0 +1,28 @@
+{
+  "code": "00",
+  "info": "Review Berhasil Diambil",
+  "total review": 1,
+  "data": [
+    {
+      "id": 0,
+      "product_id": 0,
+      "user_id": 0,
+      "star": 0,
+      "review": "review",
+      "image": "image",
+      "image_path": "image_path",
+      "created_at": "created_at",
+      "updated_at": "updated_at",
+      "user": {
+        "id": 0,
+        "name": "name",
+        "email": "email",
+        "email_verified_at": null,
+        "handphone": "handphone",
+        "created_at": "created_at",
+        "updated_at": "updated_at",
+        "role": "user"
+      }
+    }
+  ]
+}

@@ -4,14 +4,14 @@
   "data": {
     "user": {
       "id": 1,
-      "name": "rizco",
-      "email": "rizco@test.com",
+      "name": "farhan",
+      "email": "farhan@test.com",
       "email_verified_at": null,
-      "handphone": "012345678910",
+      "handphone": "0823441124445",
       "created_at": "2022-11-03T10:35:03.000000Z",
       "updated_at": "2022-11-03T10:35:03.000000Z",
       "role": "user"
     },
-    "token": "698|e0cehPNBBpy58j6kmV4QJkjWJXSjjrNaYG2jDsS0"
+    "token": "2260|ADjxUVifbNqUXI5vyNr1S4LolQweqlqHmOTeLWuJ"
   }
 }
