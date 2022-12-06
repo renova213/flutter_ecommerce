@@ -1,0 +1,14 @@
+{
+  "code": "00",
+  "info": "Register Berhasil",
+  "data": {
+    "user": {
+      "name": "farhan",
+      "handphone": "0812912092",
+      "email": "farhan@hehes.com",
+      "updated_at": "2022-12-06T11:12:04.000000Z",
+      "created_at": "2022-12-06T11:12:04.000000Z",
+      "id": 152
+    }
+  }
+}
