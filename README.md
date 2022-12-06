@@ -18,31 +18,51 @@ E commerce app build with flutter framework using provider as state management a
 
 - Splash Screen
 
-  <img src="https://i.ibb.co/ZVJGWzM/Whats-App-Image-2022-10-26-at-22-53-01.jpg" width="30%">
+  <img src="https://i.postimg.cc/gctP43b7/Screenshot-2022-12-06-19-34-39-18-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
-- Menu
+- Login Screen
 
-  <img src="https://i.ibb.co/6RRZWxh/Screenshot-2022-10-26-22-49-34-60-ceaa24d747da0413ba1f5a0edd7ef8d9.jpg" width="30%">
+  <img src="https://i.postimg.cc/dVrPqXZM/Screenshot-2022-12-06-19-34-31-21-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
+
+- Register Screen
+
+  <img src="https://i.postimg.cc/d0FMDBGh/Screenshot-2022-12-06-19-34-48-86-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
 - Home Screen
 
-  <img src="https://i.ibb.co/8gsNRQ2/Screenshot-2022-10-26-22-49-24-40-ceaa24d747da0413ba1f5a0edd7ef8d9.jpg" width="30%">
+  <img src="https://i.postimg.cc/rs33TC8F/Screenshot-2022-12-06-19-35-16-27-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
-- Tier List Screen
+- Category Screen
 
-  <img src="https://i.ibb.co/ZSXskk5/Screenshot-2022-10-26-22-49-50-76-ceaa24d747da0413ba1f5a0edd7ef8d9.jpg" width="30%">
+  <img src="https://i.postimg.cc/3RLzSQVG/Screenshot-2022-12-06-19-36-00-86-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
-- Character Screen
+- Search Screen
 
-  <img src="https://i.ibb.co/4mftYgw/Whats-App-Image-2022-10-26-at-22-58-54.jpg" width="30%">
+  <img src="https://i.postimg.cc/bJYK9wC8/Screenshot-2022-12-06-19-35-41-26-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
-- Detail Character Screen
+- Cart Screen
 
-  <img src="https://i.ibb.co/f2vFQdy/Screenshot-2022-10-26-22-50-15-52-ceaa24d747da0413ba1f5a0edd7ef8d9.jpg" width="30%">
+  <img src="https://i.postimg.cc/PqQgDwM2/Screenshot-2022-12-06-19-36-11-24-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
-- Guide Screen
+- Detail Product Screen
 
-  <img src="https://i.ibb.co/r6n9d6n/Screenshot-2022-10-26-22-50-29-88-ceaa24d747da0413ba1f5a0edd7ef8d9.jpg" width="30%">
+  <img src="https://i.postimg.cc/T24ZnGrM/Screenshot-2022-12-06-19-36-24-32-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
+
+- Transaction Screen
+
+  <img src="https://i.postimg.cc/7Zgdv2jw/Screenshot-2022-12-06-19-36-49-62-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
+
+- Detail Transaction Screen
+
+  <img src="https://i.postimg.cc/wjKZbVfw/Screenshot-2022-12-06-19-36-57-11-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
+
+- Review Screen
+
+  <img src="https://i.postimg.cc/YSMVtSw-g/Screenshot-2022-12-06-19-37-17-14-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
+
+- Profile Screen
+
+  <img src="https://i.postimg.cc/vTckCSw-N/Screenshot-2022-12-06-19-36-29-83-bd530b41a1dc57f981720e359c08757a.jpg" width="30%">
 
 ## Dependencies
 
