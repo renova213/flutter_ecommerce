@@ -94,11 +94,20 @@ class _ModalContainerReviewState extends State<ModalEditReview> {
                         width: width,
                         onpressed: () async {
                           try {
-                            await Fluttertoast.showToast(
-                                    msg: "Berhasil edit review")
+                            await review
+                                .updateReview(
+                                    productId: widget.review.productId,
+                                    reviewId: widget.review.id,
+                                    review: review.input,
+                                    image: review.image,
+                                    star: review.userRating.toInt().toString())
                                 .then(
-                              (_) => Navigator.pop(context),
-                            );
+                                  (_) => Fluttertoast.showToast(
+                                          msg: "Berhasil edit review")
+                                      .then(
+                                    (_) => Navigator.pop(context),
+                                  ),
+                                );
                           } catch (e) {
                             Fluttertoast.showToast(msg: e.toString());
                           }

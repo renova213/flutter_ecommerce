@@ -92,6 +92,22 @@ class ReviewViewModel extends ChangeNotifier {
     }
   }
 
+  Future<void> updateReview(
+      {required int reviewId,
+      required int productId,
+      required String review,
+      required File image,
+      required String star}) async {
+    try {
+      await appsRepository.updateReview(
+          reviewId: reviewId, review: review, image: image, star: star);
+      fetchReviews(productId);
+      notifyListeners();
+    } catch (e) {
+      rethrow;
+    }
+  }
+
   Future<void> filterRating() async {
     for (var i in _reviews) {
       if (i.star == 1 && !_oneRatingReviews.contains(i)) {
@@ -194,7 +210,7 @@ class ReviewViewModel extends ChangeNotifier {
   }
 
   void getImage() async {
-    final image = await _imagePicker.pickImage(source: ImageSource.camera);
+    final image = await _imagePicker.pickImage(source: ImageSource.gallery);
     if (image != null) {
       _image = File(image.path);
       _imageCheck = "Foto berhasil disimpan";

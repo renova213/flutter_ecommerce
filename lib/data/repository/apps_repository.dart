@@ -191,6 +191,23 @@ class AppsRepository {
     }
   }
 
+  Future<void> updateReview(
+      {required int reviewId,
+      required String review,
+      required File image,
+      required String star}) async {
+    try {
+      try {
+        await _apiServices.postMulipart('/api/review/$reviewId/product',
+            [image], {'review': review, 'star': star}, 'image');
+      } catch (_) {
+        rethrow;
+      }
+    } catch (_) {
+      rethrow;
+    }
+  }
+
   Future<List<TransactionModel>> fetchTransaction() async {
     try {
       dynamic response = await _apiServices.getRequest('/api/transaksi/');

@@ -266,7 +266,8 @@ class _ModalContainerReviewState extends State<ModalContainerReview> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.camera_alt, size: 24.sp, color: AppColor.thirdColor),
+                Icon(Icons.browse_gallery,
+                    size: 24.sp, color: AppColor.thirdColor),
                 SizedBox(width: 8.w),
                 Text(
                   review.imageCheck,

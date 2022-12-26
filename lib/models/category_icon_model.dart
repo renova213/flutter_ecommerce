@@ -15,7 +15,7 @@ class CategoryIconModel {
         color: const Color(0xffffd700)),
     CategoryIconModel(
         assetIcon: 'assets/icons/gadget.svg',
-        name: 'Gadget',
+        name: 'Komputer',
         color: const Color(0xff3d6cb9)),
     CategoryIconModel(
         assetIcon: 'assets/icons/gift.svg',
@@ -35,7 +35,7 @@ class CategoryIconModel {
         color: const Color(0xff05f649)),
     CategoryIconModel(
         assetIcon: 'assets/icons/gadget.svg',
-        name: 'Tablet',
+        name: 'Gadget',
         color: const Color(0xff3d6cb9)),
     CategoryIconModel(
         assetIcon: 'assets/icons/food.svg',
